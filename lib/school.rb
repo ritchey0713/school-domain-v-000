@@ -54,6 +54,10 @@ hash
 
 {num: [2,3]}
 
+hash[:search] 
+
+
+
 
 
 
