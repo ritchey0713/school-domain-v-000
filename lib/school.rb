@@ -42,12 +42,14 @@ end
 
 class Performers
 
-def self.audio_meets_requirements
+def audio_meets_requirements
   scope -> self.audio_attaches
 end 
 
 end
 
+
+@performer.audio_meets_requirements
 
 
 
