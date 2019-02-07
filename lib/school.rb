@@ -40,18 +40,6 @@ end
 
 
 
-class Performers
-
-def audio_meets_requirements
-  scope -> self.audio_attaches
-end 
-
-end
-
-
-Performer.audio_meets_requirements
-
-
 
 
 
