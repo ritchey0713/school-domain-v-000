@@ -31,7 +31,6 @@ end
 def sort 
   sorted_students = @roster.each do |grade, name|
     @roster[grade] = name.sort
-    sorted_students
     end
   
 end
