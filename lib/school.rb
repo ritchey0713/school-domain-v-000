@@ -36,19 +36,14 @@ def sort
   
 end
 
+binding.pry
+
 end 
 
 
 
 
 
-def save 
-  @@all << self 
-end 
-
-
-
-@school.save
 
 
 
