@@ -3,9 +3,13 @@ class School
  attr_accessor :roster
  attr_reader :name 
 
+@@all = []
+
+
 def initialize(name)
   @name = name 
   @roster = {}
+  @@all << self 
   
 end
 
@@ -15,6 +19,7 @@ def add_student(student_name, grade_year)
  else 
   @roster[grade_year] = []
   @roster[grade_year] << student_name
+  self
 end
   
 end
