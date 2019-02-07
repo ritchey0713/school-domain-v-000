@@ -46,7 +46,7 @@ end
 
 School.add_student("student_a")
 
-
+@school.add_student("student_b")
 
 
 
