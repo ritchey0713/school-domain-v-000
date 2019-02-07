@@ -43,8 +43,12 @@ end
 
 
 def save 
-  
+  @@all << self 
 end 
+
+
+
+@school.save
 
 
 
