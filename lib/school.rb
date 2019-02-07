@@ -40,13 +40,14 @@ end
 
 
 
+class Performers
 
+def self.audio_meets_requirements
+  scope -> self.audio_attaches
+end 
 
+end
 
-
-School.add_student("student_a")
-
-@school.add_student("student_b")
 
 
 
