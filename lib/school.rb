@@ -13,17 +13,7 @@ def initialize(name)
   
 end
 
-def name 
-  @name
-end
 
-def roster
-  @roster
-end
-
-def roster=(roster)
-  @roster = roster
-end
 def add_student(student_name, grade_year)
   if @roster[grade_year]!= nil
      @roster[grade_year] << student_name
