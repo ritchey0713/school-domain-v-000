@@ -49,7 +49,7 @@ end
 end
 
 
-@performer.audio_meets_requirements
+Performer.audio_meets_requirements
 
 
 
