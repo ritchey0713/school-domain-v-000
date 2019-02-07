@@ -20,7 +20,6 @@ def add_student(student_name, grade_year)
  else 
   @roster[grade_year] = []
   @roster[grade_year] << student_name
-  self
 end
   
 end
