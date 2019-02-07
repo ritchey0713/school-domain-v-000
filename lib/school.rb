@@ -40,8 +40,21 @@ binding.pry
 
 end 
 
+hash = {num: 0}
 
-{arr: [], }
+hash[:num] = 2
+
+hash[:num] = []
+
+hash[:num].push(2)
+
+hash[:num].push(3)
+
+hash 
+
+{num: [2,3]}
+
+
 
 
 
